@@ -34,3 +34,11 @@
 ├── vectorstore_db/   # Vector DB location
 ├── prompts/          # Customizable prompt formats
 ├── requirements.txt  # All Python deps
+
+git clone https://github.com/naga-pavan12/rag-ai-assistant
+cd ai-prd-agent
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+ollama run llama3
+
